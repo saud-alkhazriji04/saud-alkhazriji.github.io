@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*nav-bar*/
+h3 {
+  margin: 0;
+  font-size: 34px;
+  color: #FC1D2A;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  background: #000000;
+  border-bottom: 3px solid #FC1D2A;
+  position: relative;
+  height: 80px;
+}
+
+li a {
+  text-decoration: none;
+  color: #FDF724;
+  display: inline;
+  padding-right: 80px;
+  padding-left: 80px;
+  font-size: 26px;
+}
+
+li {
+  display: inline;
+}
+
+.sign-in-container {
+  position: absolute;
+  right: 0px;
+}
+
+.brand-name-container {
+  position: absolute;
+  left: 0px;
+  padding: 0 59px;
+  top: 20%;
+}
+
+.sign-in-container {
+  position: absolute;
+  right: 0px;
+  padding: 0 59px;
+  top: 20%;
+}
+
+.nav-menu-container {
+  position: relative;
+  margin: auto;
+}
+
+/*hero section*/
+.hero-section-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 780px;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 80%, rgba(255,255,255,1) 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.left-hero-section {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+}
+
+.right-hero-section {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  height: 100%;
+}
+
+.right-hero-section img {
+  position: absolute;
+  height: 622px;
+  width: 622px;
+  left: 165px
+}
+
+.main-text h1 {
+  color: #FC1D2A;
+  font-size: 113px;
+  font-weight: bold;
+  width: 726px;
+  height: 474px;
+}
+
+.left-hero-section .main-text {
+  position: absolute;
+  left: 100px;
+}
+
+.left-hero-section .cta {
+  position: absolute;
+  right: 190px;
+  bottom: 285px;
+}
+
+.cta a {
+  background: #FDF724;
+  color: #FC1D2A;
+  border-radius: 45px;
+  padding: 7px 20px;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+
+/*advertising section*/
+.advertising-section-container {
+  position: relative;
+  height: 725px;
+  width: 100%;
+  background: white;
+  display: flex;
+}
+
+.left-advertising-section {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  top: 100px;
+}
+
+.right-advertising-section {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 100px;
+}
+
+.left-advertising-section a img {
+  margin-left: 110px;
+  height: 541px;
+  width: 817px;
+}
+
+.right-advertising-section h1 {
+  color: #FC1D2A;
+  font-size: 113px;
+  font-weight: bold;
+  padding: 100px 143px 0 150px;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*menu section*/
+.menu-container {
+  height: 10000px;
+  width: 100%;
+  margin-top: 150px;
+  background: rgb(128,128,128);
+  background: linear-gradient(0deg, rgba(128,128,128,1) 97.5%, rgba(255,255,255,1) 100%);
+}
+
+.menu-container h2 {
+  font-size: 113px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+.my-solution {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 10000px;
+}
+
+/*beef burgers section*/
+.beef-burgers-container {
+  height: 900px;
+  width: 77.7%;
+}
+
+.beef-burgers-container h3 {
+  padding-left: 110px;
+  color: #000000;
+  font-size: 82px;
+  font-weight: bold;
+}
+
+/*cards section*/
+.cards-section-container {
+  width: 1260px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 122px 110px;
+  justify-content: space-between;
+}
+
+.card-container {
+  width: 408px;
+  height: 805px;
+  position: relative;
+}
+
+.top-card-part {
+  height: 179px;
+  width: 408px;
+  border: #707070 solid 1px;
+  border-top-right-radius: 48px;
+  border-top-left-radius: 48px;
+  background: #FFFFFF;
+}
+
+.top-card-part h3 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #000000;
+  padding: 44px 0 0 0;
+  text-align: center;
+}
+
+.meal {
+  border: #707070 solid 1px;
+  width: fit-content;
+  font-size: 28px;
+  color: #000000;
+  font-weight: normal;
+  border-radius: 50%;
+  padding: 38px 26.1px;
+  background: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  top: 123px;
+  left: 110px;
+  z-index: 10001;
+}
+
+.burger {
+  border: #707070 solid 1px;
+  width: fit-content;
+  font-size: 28px;
+  color: #000000;
+  font-weight: normal;
+  border-radius: 50%;
+  padding: 38px 15.25px;
+  background: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  top: 123px;
+  right: 110px;
+  z-index: 10000;
+}
+
+.bottom-card-part {
+  background: white;
+  height: 626px;
+  width: 408px;
+  border: #707070 solid 1px;
+  border-bottom-left-radius: 48px;
+  border-bottom-right-radius: 48px;
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  top: 80px;
+}
+
+.price p {
+  margin: 0;
+}
+
+.bottom-card-part img {
+  height: 309px;
+  width: 400px;
+  text-align: center;
+  margin: 117px auto 0 auto;
+  display: block;
+}
+
+.ingredients, .ingredients-2 {
+  margin-left: 32px;
+}
+
+.ingredients p {
+  font-size: 26px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.ingredients-2 p {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+
+
+/*side nav*/
+.side-nav {
+  width: 22.3%;
+  height: 900px;
+  background: #000000;
+  position: sticky;
+  top: 20px;
+  border-radius: 20px;
+}
+
+.side-nav img {
+  height: 149px;
+  width: 149px;
+  margin: 15px auto;
+  display: block;
+}
+
+.side-nav-menu-title h4 {
+  color: #FFFFFF;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 0 25px 53px;
+}
+
+.side-nav-menu-title a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 53px;
+  font-size: 25px;
+  font-weight: normal;
+  display: list-item;
+  list-style: none;
+  padding: 5px 0 5px 0;
+}
+
+
+/*Pseudo and hovering*/
+/*.card-container::before {
+  content: ' ';
+  background: red;
+  height: 100px;
+  width: 100px;
+}
+*/
